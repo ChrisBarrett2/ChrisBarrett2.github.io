@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    
+    <meta name="description" content="Personal homepage of Dr Chris Barrett">
+    <meta name="author" content="Chris Barrett">
+    <meta name="keywords" content="academic, computer science, programming language semantics, Functional Machine Calculus, Lambda calculus, lambda-calculus, strong normalisation, string diagrams, logic, proof theory, type theory, categorical semantics, deep inference, computational effects">
+    
     <link rel="icon" href="favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Dr Chris Barrett - Homepage</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,10 +22,6 @@
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -42,37 +41,103 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Dr Chris Barrett</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="active"><a href="#">About</a></li>
+            <li><a href="#">Research</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-      </div>
-
+    <hr>
+    <div class="container", id="about">
+	<div class="row">
+	    <h1>Dr Chris Barrett</h1>
+	</div>
+	<div class="row">
+            <div class="col-md-7">
+                <h2>About</h2>
+		<p>I'm a post-doctorate researcher working with Dan Ghica at the University of Birmingham. My CV is here [link]. Looking for post-doc positions. Feel free to <a href="c.r.barrett.1@bham.ac.uk">e-mail me</a>. </p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-responsive" src="mypicture.jpg">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container", id="research">
+	<div class="row">
+	    <h1>Research</h1>
+	</div>
 	
-	<img src="mypicture.jpg"> 
+	<div class="row">
+	    <div class="col-md-7">
+		<h2>The Functional Machine Calculus II: Semantics</h2>
+		Chris Barrett, Willem Heijltjes, Guy McCusker<br>
+		Accepted for publication at CSL 2023<br>
+		Abstract<br>
+	        CSL 2023 Slides: [slides] <br>
+	    </div>
+	    <div class="col-md-5">	
+	        <img class="img-responsive" src="fmc-example.jpg">
+	    </div>
+	</div>
+	<div class="row">
+	    <div class="col-md-7">
+		<h2>A Subatomic Proof System for Decision Trees</h2>
+		<a href="https://arxiv.org/abs/2105.01382">Arxiv</a>
+		Published in ToCL 2022<br>
+		Abstract<br>
+	        FSCD 2021? workshop, structures and deduction: [slides] 
+	    </div>
+	    <div class="col-md-5">	
+	        <img class="img-responsive" src="subatomic2.jpg">
+	    </div>
+	</div>
+	<div class="row">
+	    <div class="col-md-7">
+		<h2>Ph.D. Thesis: On the Simply Typed Functional Machine Calculus: Categorical Semantics and Strong Normalisation</h2>
+		Abstract<br>
+		<p> Building on work of Willem Heijltjes
+			<a href="https://people.bath.ac.uk/wbh22/pdf/2022-FMC-submitted.pdf">Link</a>
+			<a href="https://www.youtube.com/watch?v=-dCYR_VE_NE">Video</a> </p>
+	        Department of Computer Science, University of Bath <br>
+	        Viva presentation (November 2022): [slides] <br>
+	        Thesis advisor: Dr Willem Heijltjes [link]
+	    </div>
+	    <div class="col-md-5">	
+	        <img class="img-responsive" src="fmc-example.jpg">
+	    </div>
+	</div>
+	<div class="row">
+	    <div class="col-md-7">
+		<h2>Masters' Project: On the quantized dynamics of factorial languages</h2>
+		<a href="https://arxiv.org/abs/1611.06844">Arxiv</a>
+		Published in The Quarterly Journal of Mathematics 2017<br>
+		Abstract/masters project/haskell code<br>
+		Awarded the Best MMath Project School Prize
+	    </div>
+	    <div class="col-md-5">	
+	        <img class="img-responsive" src="followersetgraph2.jpg">
+	    </div>
+	</div>
+    </div>
+
+	</div>
     </div><!-- /.container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+
+<!-- To Do: 
+1. favicon
+2. layout, columns, pictures for each pub
+3. workshop talks, links, ...
+4. scrollspy for toolbar
+5. teaching? 
+--> 
+
 </html>
