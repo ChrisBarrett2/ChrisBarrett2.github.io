@@ -1,0 +1,26 @@
+Aim: from frobenius + hadamard, recover zx, where 
+	- frob is decomposed in terms of biproduct (and bialgebra??)
+	- hadamard is decomposed in terms of biproduct also(?) 
+	q: then dist is true eq/iso and primitive?
+	q: frob co/units?	
+	q: _bi_product rather than just sum? what if sum only? biproduct in term calc: {<x>,<y>}.[x+y] and <x>.{[x],[x]}?
+	q: as proofs (see below), as terms?
+
+
+
+Frobenius: check below has right semantics/interactions as FA (noting proj/inj are...?) 
+
+AxB -> AxAxBxB -> AxBxAxB
+and base case:
+1x1 -> 1 ? (where = is match?)
+
+A+B IH-> AxA + BxB -inj-> AxA + AxB + BxA + BxB =dist= A+B x A+B
+and base case:
+1+1 -> 1x1 + 1x1 -inj-> 1x1 + 1x1 + 1x1 + 1x1 =dist= 1+1 x 1+1 (where = is dup??)
+
+and dual
+A+B x A+B =dist= AxA + AxB + BxA + BxB -proj-> AxA + BxB IH-> A+B
+
+Hadamard: 1+1 -> 1+1, A+A -> A+A (see heunen for generalization): 
+{<x>.[x+y], <y>.[x-y]}
+1+1 = 1x1 + 1x1 =?         1x1 + 1x1 = 1+1  (where = is sum/dup??)

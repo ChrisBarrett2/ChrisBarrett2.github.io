@@ -10,7 +10,7 @@
     <meta name="author" content="Chris Barrett">
     <meta name="keywords" content="academic, computer science, programming language semantics, Functional Machine Calculus, Lambda calculus, lambda-calculus, strong normalisation, string diagrams, logic, proof theory, type theory, categorical semantics, deep inference, computational effects">
     
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="braces-asterisk.svg">
 
     <title>Dr Chris Barrett - Homepage</title>
 
@@ -32,7 +32,7 @@
 
     <body data-spy="scroll" data-target=".navbar" data-offset="0">
 
-    <nav class="navbar navbar-inverse navbar-light navbar-fixed-top", id="mynav">
+    <!--<nav class="navbar navbar-inverse navbar-light navbar-fixed-top", id="navbar1">
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Dr Chris Barrett</a>
@@ -42,9 +42,9 @@
             <li class="page-scroll"><a href="#about">About</a></li>
             <li class="page-scroll"><a href="#research">Research</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
-    </nav>
+    </nav> -->
     <div class="container", id="about">
 	<!--<div class="row">
 	    
@@ -53,8 +53,25 @@
 	<div class="row">
             <div class="col-md-7">
                 <h1>Dr Chris Barrett</h1>
-		<p>I'm a post-doctorate researcher working with <a href="https://www.cs.bham.ac.uk/~drg/">Dr Dan Ghica</a> on String Diagrams (project?) at the University of Birmingham. My CV is here [link]. Looking for post-doc positions. Feel free to <a href="c.r.barrett.1@bham.ac.uk">e-mail me</a>. </p>
-            </div>
+		<p>I'm a post-doctoral researcher working with <a href="https://www.cs.bham.ac.uk/~drg/">Dr Dan Ghica</a> on String Diagrams (project?) at the University of Birmingham. My CV is here [link]. Looking for post-doc positions. Feel free to <a href="c.r.barrett.1@bham.ac.uk">e-mail me</a>. </p>
+            	
+		 <a
+   			 id="cy-effective-orcid-url"
+ 			   class="underline"
+    			 href="https://orcid.org/0000-0003-1708-3554"
+     			target="orcid.widget"
+    			 rel="me noopener noreferrer"
+   			  style="vertical-align: top">
+   			  <img
+   			     src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+    			    style="width: 1em; margin-inline-start: 0.5em"
+    			    alt="ORCID iD icon"/>
+    			  ORCID iD
+    			</a>
+		|
+		<a href="https://scholar.google.com/citations?user=iZU3O-EAAAAJ&hl=en&oi=sra"> Google Scholar </a> | 
+		<a href="https://www.linkedin.com/in/chris-barrett-9a339518b/"> LinkedIn </a> 
+		</div>
             <div class="col-md-5">
                 <img class="img-responsive" src="mypicture.jpg">
             </div>
@@ -145,15 +162,27 @@
 	</div>
     </div>
 
+	<script>
+	$(".nav .nav-link").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).addClass("active");
+});
+	</script>	
+
   </body>
 
 <!-- To Do: 
 1. favicon
-2. layout, columns, pictures for each pub
+2. pics for fmc papers, subatomic should be down rule lol
+abstracts, about, navbar?
 3. workshop talks, links, ...
 4. scrollspy for toolbar
-5. teaching? linkedin, pure, dblp, google scholar
-subatomic should be down rule lol
---> 
+5.  pure
 
+6. Seminar organization: bham, bath; teaching?
+=======
+update linkedin
+--> 
+get bath to redirect/ upload index for homepage
+Keywords: category theory, type theory, logic in computer science, programming language semantics, computational effects, proof theory, lambda-calculus, string diagrams
 </html>
